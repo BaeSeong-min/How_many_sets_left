@@ -29,5 +29,6 @@
 </br>
 
 ## 🖥️실행 화면
+![Image](https://github.com/user-attachments/assets/58854f4a-ad5b-4d17-8ec4-efc726cc153c)
 
 </br> 
