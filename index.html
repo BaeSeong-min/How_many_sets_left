@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>setCounter</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="form-structor">
+    <div id="firstPage">
+      <div class="bg-video">
+        <video class="bg-video__content" autoplay muted loop>
+          <source src="img/initialPageBackGround.mp4" type="video/mp4" />
+          Your browser is not supported!
+        </video>
+      </div>
+      <div class="initialPageWrap">
+        <p class="black-han-sans-regular" id="question">세트 횟수 설정</p>
+        <div class="button-wrap">
+          <button class="button color-9" id="fourSet">4세트</button>
+          <button class="button color-9" id="fiveSet">5세트</button>
+        </div>
+      </div>
+      <p class="gowun-batang-regular" id="copyright">Made by @성민</p>
+    </div>
+
+    <div id="secondPage" style="display:none">
+      <p class="gowun-batang-regular" id="adviceText">같이 힘내서 4세트 끝내봐요!</p>
+      <div class="progress-container">
+        <div class="progress-bar" id="progressBar"></div>
+      </div>
+      <div class="progressButton-wrap">
+        <img src="img/setFinishButton2.png" id="progressButton" alt="buttonImage"></img>
+      </div>
+      <div class="circle-wrap">
+        <div class="circle">
+          <div class="inner-circle">
+            <span class="black-han-sans-regular" id="setFinishPercentage">0%</span>
+          </div>
+        </div>
+      </div>
+
+      <span class="gowun-batang-regular" id="countdown"></span>
+
+      <div class="finishedNumber-wrap">
+        <p id="finishedNumber">💪 0회 완료</p>
+        <p id="backToMainPage">메인으로 돌아가기 > </p>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
